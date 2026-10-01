@@ -1,0 +1,21 @@
+# --- Classification des langages pour GitHub Linguist ---
+
+# Compter les notebooks Jupyter comme du Python
+*.ipynb linguist-language=Python
+
+# Ignorer les métadonnées JSON des notebooks dans les stats
+*.ipynb linguist-detectable=true
+
+# Considérer les fichiers de données comme non-détectables
+*.csv linguist-detectable=false
+*.tsv linguist-detectable=false
+*.fasta linguist-detectable=false
+*.fastq linguist-detectable=false
+*.gff linguist-detectable=false
+
+# Marquer les dossiers de données comme non comptés dans les stats
+data/* linguist-detectable=false
+datasets/* linguist-detectable=false
+
+# Forcer la détection correcte des scripts Python
+*.py linguist-language=Python
