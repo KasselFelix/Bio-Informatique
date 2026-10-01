@@ -134,5 +134,5 @@ Il constitue une base solide pour des travaux plus avancés :
 ---
 
 ## Auteur
-Projet réalisé par **Kassel Felix** dans le cadre d’un module universitaire de bio‑informatique.  
-Développement, analyses et notebooks : **Python + Jupyter Notebook**.
+Projet réalisé par **Kassel Felix** dans le cadre de l'UE bio‑informatique de Sorbonne Universite .  
+Développement, analyses : **Python + Jupyter Notebook**.
